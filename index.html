@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Adrian Gajewski</title>
+</head>
+<body>
+    <div class="main-container">
+        <nav class="header">
+            <div class="title">
+                <h3>Adrian Gajewski</h3>
+            </div>
+            <div class="icons">
+                <a class="icon" href="https://github.com/AdrianGajewskiDev"><img src="./img/github.png" alt="Github"></a>
+                <a class="icon" href="https://www.linkedin.com/in/adrian-gajewski-1246ba18b/"><img src="./img/linkedin.png" alt="Linkedin"></a>
+            </div>
+            <div class="title">
+                <h3>Hangman game</h3>
+            </div> 
+            <div class="title">
+                <h3 id="attempts">Attempts: 5</h3>
+            </div>    
+        </nav>
+        <div class="content">
+            <div id="img-container">
+                <img src="" id="img" />
+              </div>
+              <div id="gameover-panel">
+                <h1 id="game-result"></h1>
+                <button id="replay-btn">Play Again</button>
+              </div>
+              <div class="keyboard">
+                <p>Note: Password is coming from the passwords.js file and it is just some random English word.</p>
+                <div class="pass-field">
+                  <h1 id="field"></h1>
+                </div>
+                <div class="keys">
+                  <div class="kbd-row">
+                    <a class="letter">A</a>
+                    <a class="letter">B</a>
+                    <a class="letter">C</a>
+                    <a class="letter">D</a>
+                    <a class="letter">E</a>
+                  </div>
+                  <div class="kbd-row">
+                    <a class="letter">F</a>
+                    <a class="letter">G</a>
+                    <a class="letter">H</a>
+                    <a class="letter">I</a>
+                    <a class="letter">J</a>
+                  </div>
+                  <div class="kbd-row">
+                    <a class="letter">K</a>
+                    <a class="letter">L</a>
+                    <a class="letter">M</a>
+                    <a class="letter">N</a>
+                    <a class="letter">O</a>
+                  </div>
+                  <div class="kbd-row">
+                    <a class="letter">P</a>
+                    <a class="letter">Q</a>
+                    <a class="letter">R</a>
+                    <a class="letter">S</a>
+                    <a class="letter">T</a>
+                  </div>
+                  <div class="kbd-row">
+                    <a class="letter">U</a>
+                    <a class="letter">V</a>
+                    <a class="letter">W</a>
+                    <a class="letter">X</a>
+                    <a class="letter">Y</a>
+                  </div>
+                  <div class="kbd-row">
+                    <a class="letter">Z</a>
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript" src="passwords.js"></script>
+              <script type="text/javascript" src="script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
